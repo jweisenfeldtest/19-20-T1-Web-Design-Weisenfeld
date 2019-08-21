@@ -9,7 +9,7 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="no" size="4" />
-        <GUIConfig name="AppPosition" x="1187" y="577" width="1100" height="700" isMaximized="no" />
+        <GUIConfig name="AppPosition" x="611" y="268" width="1100" height="700" isMaximized="no" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20190831">yes</GUIConfig>
         <GUIConfig name="Auto-detection">yes</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
@@ -35,7 +35,7 @@
         <GUIConfig name="ScintillaGlobalSettings" enableMultiSelection="no" />
         <GUIConfig name="openSaveDir" value="0" defaultDirPath="" />
         <GUIConfig name="titleBar" short="no" />
-        <GUIConfig name="stylerTheme" path="C:\Users\jweisenfeld\Documents\GitHub\19-20-T1-Web-Design-Weisenfeld\npp.7.7.1.bin.x64\stylers.xml" />
+        <GUIConfig name="stylerTheme" path="C:\Users\jweisenfeldtest\Documents\GitHub\19-20-T1-Web-Design-Weisenfeld\npp.7.7.1.bin.x64\stylers.xml" />
         <GUIConfig name="wordCharList" useDefault="yes" charsAdded="" />
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="multiInst" setting="0" />
