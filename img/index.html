@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>CSS Table Styling</title>
+    <style type="text/css">
+      table {
+        width: 650px;
+        font-family: Verdana;
+        border-collapse: collapse;
+        text-align: center;
+      }
+      caption {
+        font-size: 30px;
+        font-weight: bold;
+        color: green;
+        padding: 10px;
+      }
+      th {
+        font-size: 16px;
+        border: 2px solid black;
+        padding: 5px;
+        width: 20%;
+        background-color: yellow;  
+      }
+      td {
+        font-size: 14px;
+        border: 2px dotted blue;
+        padding: 5px;
+      }
+      .highs {
+        color: red;
+      }
+      .lows {
+        color: blue;
+      }
+    </style>
+  </head>
+
+  <body>
+    <table>
+      <caption>Five Day Forecast</caption>
+      <tr>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+      </tr>
+      <tr class="highs">
+        <td>68</td>
+        <td>68</td>
+        <td>70</td>
+        <td>73</td>
+        <td>62</td>
+      </tr>
+      <tr class="lows">
+        <td>53</td>
+        <td>56</td>
+        <td>52</td>
+        <td>58</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Thunderstorms</td>
+        <td>Partly Cloudy</td>
+        <td>Chance of Rain</td>
+        <td>Clear</td>
+        <td>Windy</td>
+      </tr>
+      <tr>
+        <td><img src="tstorms.jpg" width="55" height="58" alt="Thunderstorms" /></td>
+        <td><img src="pcloudy.jpg" width="55" height="58" alt="Partly Cloudy" /></td>
+        <td><img src="chancerain.jpg" width="55" height="58" alt="Chance of Rain" /></td>
+        <td><img src="clear.jpg" width="55" height="58" alt="Clear" /></td>
+        <td><img src="windy.jpg" width="55" height="58" alt="Windy" /></td>
+      </tr>
+    </table>
+  </body>
+
+</html>
