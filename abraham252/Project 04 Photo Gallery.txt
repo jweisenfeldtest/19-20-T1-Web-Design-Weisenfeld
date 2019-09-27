@@ -15,7 +15,7 @@
 <a href="C3.html"><img src="1995_toyota_supra_turbo_red_3.jpg"  width=150 height=100 alt="Thumb of supra"></a>
 <a href="C3.html"><p> Supra</p></a>
 
-<a href="C4.html"><img src="images.jfif"  width=150 height=100 alt="Thumb of supra"></a>
+<a href="C4.html"><img src="1997-toyota-supra-sold-for-176-000-at-auction.jpg"  width=150 height=100 alt="Thumb of supra"></a>
 <a href="C4.html"><p> Supra</p></a>
 
 <a href="C5.html"><img src="Toyota_Supra.jpg"  width=150 height=100 alt="Thumb of supra"></a>
