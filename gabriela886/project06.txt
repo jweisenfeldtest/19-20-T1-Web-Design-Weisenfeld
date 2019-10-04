@@ -47,19 +47,21 @@
 
   <h2>Favorite fruits</h2>
   <ul>
-    <li>Strawberry</li>
-    <li>Bananas</li>
-    <li class="top-favorite emphasis">Mango</li>
-    <li>Pineapple</li>
+	<li>Pomegranate</li> 
+    <li>Raspberries</li> 
+    <li class="top-favorite emphasis">Mangoes</li>
+    <li>Blueberries</li> 
+    <li>Raspberries</li> 
   </ul>
 
   <h2>Favorite presidents</h2>
   <ol>
-    <li>George Washington</li>
-    <li>John Adams</li>
-    <li> Abraham Lincoln</li>
-    <li>Barack Obama</li>
-    <li>George W. Bush</li>
+   <li>Obama</li> 
+   <li>Abraham Lincoln</li> 
+   <li>JFK</li> 
+   <li>Theodore Roosevelt</li> 
+   <li>George Washington</li> 
+   <!-- I only have at least 3 favorite presidents, and they are the top 3 listed at the top. -->
   </ol>
 
 </body>
