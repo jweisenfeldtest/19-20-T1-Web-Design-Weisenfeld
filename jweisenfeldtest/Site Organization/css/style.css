@@ -1,0 +1,17 @@
+body {
+   text-align: center;
+}
+h1 {
+  color: orange;
+}
+img {
+  border: 2px solid black;
+}
+a {
+  font-weight: bold;
+}
+p {
+  margin: 0px 0px 20px 0px;
+  font-size: 18px;
+  font-weight: bold;
+}
