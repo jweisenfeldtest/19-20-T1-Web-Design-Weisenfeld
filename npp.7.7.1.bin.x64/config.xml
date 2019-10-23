@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="Windows-1252" ?>
 <NotepadPlus>
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no" isSearch2ButtonsMode="no" />
-    <History nbMaxFile="10" inSubMenu="no" customLength="-1" />
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no" isSearch2ButtonsMode="no">
+        <Filter name="" />
+        <Find name="/Web Colors/" />
+        <Find name="/Special Characters/" />
+        <Find name="/More CSS/" />
+        <Find name="/Nesting and Floating/" />
+        <Find name="/CSS Box Model/" />
+        <Find name="/Advanced Tables/" />
+        <Replace name="/Web%20Colors/" />
+        <Replace name="/Special%20Characters/" />
+        <Replace name="/More%20CSS/" />
+        <Replace name="/Nesting%20and%20Floating/" />
+        <Replace name="/CSS%20Box%20Model/" />
+        <Replace name="/Advanced%20Tables/" />
+    </FindHistory>
+    <History nbMaxFile="10" inSubMenu="no" customLength="-1">
+        <File filename="C:\Users\jweisenfeld\Documents\GitHub\19-20-T1-Web-Design-Weisenfeld\jweisenfeldtest\index.html" />
+        <File filename="C:\Users\jweisenfeld\OneDrive - Pasco School District #1\2019-2020\Web Design 1\High School Web Design\Source Code Examples\16. Validation\validateme.html" />
+    </History>
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
         <GUIConfig name="StatusBar">show</GUIConfig>
@@ -9,8 +26,8 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="no" size="4" />
-        <GUIConfig name="AppPosition" x="32" y="499" width="1026" height="788" isMaximized="yes" />
-        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20191016">yes</GUIConfig>
+        <GUIConfig name="AppPosition" x="33" y="126" width="1026" height="744" isMaximized="no" />
+        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20191031">yes</GUIConfig>
         <GUIConfig name="Auto-detection">yes</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
         <GUIConfig name="TrayIcon">no</GUIConfig>
