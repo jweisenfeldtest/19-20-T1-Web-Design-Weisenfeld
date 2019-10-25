@@ -11,40 +11,40 @@
 	 width: 64px;
 	 height: 100px;
 	 position: absolute;
-	 top: 105px;
-	 left: 100px;
+	 top: 100px;
+	 left: 125px;
 	 z-index: 1;
  }
  .ks {
 	 width: 64px;
 	 height: 100px;
 	 position: absolute;
-	 top: 130px;
-	 left: 100px;
-	 z-index: 2;
+	 top: 125px;
+	 left: 125px;
+	 z-index: 4;
  }
  .qh {
 	 width: 64px;
 	 height: 100px;
 	 position: absolute;
 	 top: 150px;
-	 left: 100px;
-	 z-index: 3;
+	 left: 125px;
+	 z-index: 5;
  }
  .jc {
 	 width: 64px;
 	 height: 100px;
 	 position: absolute;
-	 top: 170px;
-	 left: 100px;
-	 z-index: 4;
+	 top: 175px;
+	 left: 125px;
+	 z-index: 5;
  }
  .tend {
 	 width: 64px;
 	 height: 100px;
 	 position: absolute;
-	 top: 190px;
-	 left: 100px;
+	 top: 200px;
+	 left: 125px;
 	 z-index: 5;
  }
 	 
