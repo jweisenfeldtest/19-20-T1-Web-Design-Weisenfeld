@@ -11,7 +11,7 @@
 	 width: 64px;
 	 height: 100px;
 	 position: absolute;
-	 top: 150px;
+	 top: 105px;
 	 left: 100px;
 	 z-index: 1;
  }
@@ -19,7 +19,7 @@
 	 width: 64px;
 	 height: 100px;
 	 position: absolute;
-	 top: 150px;
+	 top: 130px;
 	 left: 100px;
 	 z-index: 2;
  }
@@ -35,7 +35,7 @@
 	 width: 64px;
 	 height: 100px;
 	 position: absolute;
-	 top: 150px;
+	 top: 170px;
 	 left: 100px;
 	 z-index: 4;
  }
@@ -43,7 +43,7 @@
 	 width: 64px;
 	 height: 100px;
 	 position: absolute;
-	 top: 150px;
+	 top: 190px;
 	 left: 100px;
 	 z-index: 5;
  }
