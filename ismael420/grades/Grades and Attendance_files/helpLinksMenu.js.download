@@ -1,0 +1,21 @@
+var helpLinksMenu = {
+	init: function() {
+		var helpObj = $j('#btnHelp').length > 0 ? $j('#btnHelp') : $j('body a[href*="/admin/help"]');
+		if(helpObj.length > 0) {
+			helpObj.on('click', helpLinksMenu.showExpandedHelp);
+			$j(document).on('click', helpLinksMenu.closeHelp);
+		}
+	},
+	showExpandedHelp: function(event) {
+		if (!$j('#btnHelpPlusCompliance').hasClass('show')){
+			$j('#btnHelpPlusCompliance').toggleClass('show');
+		}
+		event.stopPropagation();
+	},
+	closeHelp: function() {
+		if($j('#btnHelpPlusCompliance').hasClass('show')){
+			$j('#btnHelpPlusCompliance').toggleClass('show');
+		}
+	}
+};
+$j(document).ready(helpLinksMenu.init);
