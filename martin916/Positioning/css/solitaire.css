@@ -21,7 +21,7 @@
 	 position: absolute;
 	 top: 125px;
 	 left: 175px;
-	 z-index: 4;
+	 z-index: 2;
  }
  .qh {
 	 width: 64px;
@@ -29,7 +29,7 @@
 	 position: absolute;
 	 top: 150px;
 	 left: 100px;
-	 z-index: 5;
+	 z-index: 3;
  }
  .jc {
 	 width: 64px;
@@ -37,7 +37,7 @@
 	 position: absolute;
 	 top: 175px;
 	 left: 125px;
-	 z-index: 3;
+	 z-index: 4;
  }
  .tend {
 	 width: 64px;
