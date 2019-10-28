@@ -1,0 +1,31 @@
+function getCookie(b){var e=b+"=";
+var d=document.cookie.split(";");
+for(var c=0;
+c<d.length;
+c++){var a=d[c].trim();
+if(a.indexOf(e)==0){return a.substring(e.length,a.length)
+}}return""
+}function setCookie(d,e,a){var c=new Date();
+c.setTime(c.getTime()+(a*24*60*60*1000));
+var b="expires="+c.toGMTString();
+document.cookie=d+"="+e+"; "+b
+}function getQueryParams(a){a=a.split("+").join(" ");
+var d={},c,b=/[?&]?([^=]+)=([^&]*)/g;
+while(c=b.exec(a)){d[decodeURIComponent(c[1])]=decodeURIComponent(c[2])
+}return d
+}function getDomain(b){var a=b.match(/(.+?):\/\/(.[^/]+)/);
+return a[1]+"://"+a[2]
+}function displayCode(a){$("#codeCol").html('<div class="code"><h1>District Code</h1>'+a+"</div>");
+$("#codeRow").show()
+}var query=getQueryParams(document.location.search);
+if(query.districtCode&&query.districtCode.length>1){displayCode(query.districtCode)
+}else{if(document&&document.referrer){var code=getCookie("code");
+var domain=getCookie("domain");
+if(domain!==getDomain(document.referrer)){code=""
+}if(code!=""){displayCode(code)
+}else{var url="https://support.powerschool.com/services/rest/remote-device/v2/get-district-code?url="+getDomain(document.referrer);
+$.getJSON(url,function(a){setCookie("code",a.response,7);
+setCookie("domain",getDomain(document.referrer),7);
+displayCode(a.response)
+})
+}}};
