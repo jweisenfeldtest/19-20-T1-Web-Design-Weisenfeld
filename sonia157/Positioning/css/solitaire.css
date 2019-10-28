@@ -1,0 +1,51 @@
+ body {
+ background: rgb(238,174,202);
+ background: linear-gradient(90deg,  rgba(238,174,202,1) 0%,  rgba(148,187,233,1) 100%);
+ }
+ .felt {
+	 position: relative;
+	 top: 25px;
+	 left: 25px;
+ }
+ .card {
+	 width: 64px;
+	 height: 100px;
+	 position: absolute;
+	 top: 105px;
+	 left: 100px;
+	 z-index: 1;
+ }
+ .ks {
+	 width: 64px;
+	 height: 100px;
+	 position: absolute;
+	 top: 130px;
+	 left: 100px;
+	 z-index: 2;
+ }
+ .qh {
+	 width: 64px;
+	 height: 100px;
+	 position: absolute;
+	 top: 150px;
+	 left: 100px;
+	 z-index: 3;
+ }
+ .jc {
+	 width: 64px;
+	 height: 100px;
+	 position: absolute;
+	 top: 170px;
+	 left: 100px;
+	 z-index: 4;
+ }
+ .tend {
+	 width: 64px;
+	 height: 100px;
+	 position: absolute;
+	 top: 190px;
+	 left: 100px;
+	 z-index: 5;
+ }
+	 
+ 
