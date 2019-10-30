@@ -1,6 +1,6 @@
  body {
-   background-image: linear-gradient( -180deg, rgba(148,187,233,1), rgba(238,174,202,1) 100%, );
-   background-repeat: repeat-y
+ background: rgb(238,174,202);
+ background: linear-gradient(90deg,  rgba(238,174,202,1) 0%,  rgba(148,187,233,1) 100%);
  }
  .felt {
 	 position: relative;
@@ -11,40 +11,40 @@
 	 width: 64px;
 	 height: 100px;
 	 position: absolute;
-	 top: 60px;
-	 left: 110px;
+	 top: 100px;
+	 left: 125px;
 	 z-index: 1;
  }
  .ks {
 	 width: 64px;
 	 height: 100px;
 	 position: absolute;
-	 top: 80px;
-	 left: 110px;
-	 z-index: 2;
+	 top: 125px;
+	 left: 125px;
+	 z-index: 4;
  }
  .qh {
 	 width: 64px;
 	 height: 100px;
 	 position: absolute;
-	 top: 100px;
-	 left: 110px;
-	 z-index: 3;
+	 top: 150px;
+	 left: 125px;
+	 z-index: 5;
  }
  .jc {
 	 width: 64px;
 	 height: 100px;
 	 position: absolute;
-	 top: 120px;
-	 left: 110px;
-	 z-index: 4;
+	 top: 175px;
+	 left: 125px;
+	 z-index: 5;
  }
  .tend {
 	 width: 64px;
 	 height: 100px;
 	 position: absolute;
-	 top: 140px;
-	 left: 110px;
+	 top: 200px;
+	 left: 125px;
 	 z-index: 5;
  }
 	 
