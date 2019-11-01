@@ -16,7 +16,6 @@
         <Replace name="/Advanced%20Tables/" />
     </FindHistory>
     <History nbMaxFile="10" inSubMenu="no" customLength="-1">
-        <File filename="C:\Users\jweisenfeld\Documents\GitHub\19-20-T1-Web-Design-Weisenfeld\jweisenfeldtest\index.html" />
         <File filename="C:\Users\jweisenfeld\OneDrive - Pasco School District #1\2019-2020\Web Design 1\High School Web Design\Source Code Examples\16. Validation\validateme.html" />
     </History>
     <GUIConfigs>
@@ -26,8 +25,8 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="no" size="4" />
-        <GUIConfig name="AppPosition" x="33" y="126" width="1026" height="744" isMaximized="no" />
-        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20191031">yes</GUIConfig>
+        <GUIConfig name="AppPosition" x="1343" y="616" width="1026" height="744" isMaximized="no" />
+        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20191116">yes</GUIConfig>
         <GUIConfig name="Auto-detection">yes</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
         <GUIConfig name="TrayIcon">no</GUIConfig>
