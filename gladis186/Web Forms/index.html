@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Web Form</title>
+    <style type="text/css">
+      .feedback {
+        width: 500px;
+        background-color: #DDDDDD;
+        margin: 25px 0px 0px 25px;
+        padding: 10px 5px;
+        border: 1px solid black;
+        font-family: Tahoma, Arial, sans-serif;
+        font-size: 13px;
+      }
+      .caption {
+        font-size: 16px;
+      }
+      .label {
+        text-align: right;
+        width: 100px;
+        float: left;
+        padding: 5px;
+        margin-right: 20px;
+      }
+      .data {
+        text-align: left;
+        padding: 5px;
+      }
+      .clearfloat {
+        clear: both;
+      }
+      .tall {
+        height: 60px;
+        padding-top: 34px;
+      }
+      .button {
+        text-align: center;
+        padding: 15px 0px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form class="feedback" action="index.html" method="post">
+      <fieldset>
+        <legend class="caption">Fix This #1</legend>
+        <div class="label">Fix This #2</div>
+        <div class="data">  <!-- Text Box -->
+          <input type="text" size="45" name="fullname" />
+        </div>
+        <div class="clearfloat"></div>
+        <div class="label tall">Fix This #3</div>
+        <div class="data">  <!-- Radio Button -->
+          <!-- you are missing some radio buttons Fix This #4 -->
+          <input type="radio" name="year" value="senior" /> Fix This #5<br />
+        </div>
+        <div class="clearfloat"></div>
+        <div class="label tall">Fix This #6</div>
+        <div class="data">  <!-- Checkboxes -->
+          <input type="checkbox" name="activities" value="sports" /> Fix This #7<br />
+          <!-- you are missing some checkboxes Fix This #8 -->
+        </div>
+        <div class="clearfloat"></div>
+        <div class="label">Fix This #9</div>
+        <div class="data">  <!-- Drop-down List -->
+          <select name="quarter">
+		   <!-- you are missing some options Fix This #11-->
+           <option value="winter">Fix This #10</option>			  
+          </select>
+        </div>
+        <div class="clearfloat"></div>
+        <div class="label tall">Fix This #12</div>
+        <div class="data">  <!-- Textarea Box -->
+          <textarea name="comments" rows="4" cols="35">Fix This #13</textarea>
+        </div>
+        <div class="clearfloat"></div>
+        <div class="button"> <!-- Submit Button -->
+          <input type="submit" value="Fix This #14" />
+        </div>
+      </fieldset>
+    </form>
+  </body>
+
+</html>
