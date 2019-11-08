@@ -1,2 +1,22 @@
 body {
- 
+ text-align:center;
+ }
+.page {
+  height:500px;
+  width:960px;
+  border:1px solid black;
+  background-color: #6ee31b;
+  font-weight: bold;
+}
+.head {
+  height:150px;
+  width:960px;
+  border:1px solid black;
+  background-color: #2eb032;
+}
+.foot {
+  height:50px;
+  width:960px;
+  border:1px solid black;
+  background-color: #13632f;
+}
