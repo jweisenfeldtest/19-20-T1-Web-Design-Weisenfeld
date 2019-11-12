@@ -1,21 +1,61 @@
-body {
- text-align:center;
- }
-.page {
-  height:400px;
-  width:960px;
-  border:1px solid black;
-  background-color: #008080;
-}
-.head {
-  height:150px;
-  width:960px;
-  border:1px solid black;
-  background-color: #00ffff;
-}
-.foot {
-  height:50px;
-  width:960px;
-  border:1px solid black;
-  background-color: #0000ff;
-}
+
+   /* #5f this is CSS comment */
+   body {
+	   font-family: calibri, sans-serif;
+   }
+   
+   .pagecontent {
+	 height: auto;
+	 width: 960px;
+	 margin: 0 auto;
+     color: #0000ff;
+	 align: center;
+   }
+   
+   .topcontent {
+     background-color: #BB00BB;
+     color: #FFFFFF;
+     height: 150px;
+	 padding: 10px;
+   }
+   
+   .bottomcontent {
+     background-color: #AA00AA;
+     height: 50px;
+     color: #FFFFFF;
+	 padding: 10px;
+   }
+   
+   .maincontent {
+     background-color: #0000ff;
+     color: #FFFFFF;
+	 padding: 10px;
+	 float: none;
+	 height: auto;
+   }
+   
+   nav {
+	   text-align: center;
+	   style: block;
+   }
+   
+   .rotateimg180 {
+	-webkit-transform:rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+	}
+	
+	.flipx {
+		transform: scaleX(-1);
+	}
+	
+	.flipy {
+		transform: scaleY(-1);
+	}
+	
+	table {
+		align: center;
+	}
+	
