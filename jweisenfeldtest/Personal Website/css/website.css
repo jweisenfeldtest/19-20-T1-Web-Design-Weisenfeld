@@ -1,6 +1,6 @@
    /* #5f this is CSS comment */
    body {
-	   font-family: calibri, sans-serif;
+	   font-family: "comic sans ms", sans-serif;
    }
    
    .pagecontent {
@@ -58,3 +58,6 @@
 		align: center;
 	}
 	
+	img {
+		filter: grayscale(100%);
+	}
