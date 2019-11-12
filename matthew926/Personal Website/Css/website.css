@@ -1,6 +1,6 @@
    /* #5f this is CSS comment */
    body {
-	   font-family: "comic sans ms", sans-serif;
+	   font-family: calibri, sans-serif;
    }
    
    .pagecontent {
@@ -12,21 +12,21 @@
    }
    
    .topcontent {
-     background-color: #00BB00;
-     color: #FFFFFF;
+     background-color: #121619;
+     color: #00000;
      height: 150px;
 	 padding: 10px;
    }
    
    .bottomcontent {
-     background-color: #00AA00;
+     background-color: #AA00AA;
      height: 50px;
      color: #FFFFFF;
 	 padding: 10px;
    }
    
    .maincontent {
-     background-color: #006600;
+     background-color: #660066;
      color: #FFFFFF;
 	 padding: 10px;
 	 float: none;
@@ -35,7 +35,7 @@
    
    nav {
 	   text-align: center;
-	   display: block;
+	   style: block;
    }
    
    .rotateimg180 {
@@ -58,6 +58,3 @@
 		align: center;
 	}
 	
-	img:hover {
-		filter: invert(100%);
-	}
