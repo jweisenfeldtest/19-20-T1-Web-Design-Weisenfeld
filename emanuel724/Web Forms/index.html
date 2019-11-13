@@ -46,46 +46,47 @@
   <body>
     <form class="feedback" action="index.html" method="post">
       <fieldset>
-        <legend class="caption">Give Us Your Feedback</legend>
-        <div class="label">Full Name:</div>
+        <legend class="caption"> Give Us Your Feedback </legend>
+        <div class="label">Full Name:  <!-- Text Box --></div>
         <div class="data">  <!-- Text Box -->
           <input type="text" size="45" name="fullname" />
         </div>
         <div class="clearfloat"></div>
         <div class="label tall">Year:</div>
         <div class="data">  <!-- Radio Button -->
-          <input type="radio" name="Year" value="frehsmen" /> Freshmen<br />
-          <input type="radio" name="Year" value="sophomore" /> Sophomore<br />
-          <input type="radio" name="Year" value="junior" /> Junior<br />
-          <input type="radio" name="Year" value="senior" /> Senior<br />
-        </form>
+          <input type="radio" name="year" value="senior" /> Freshman<br />
+          <input type="radio" name="year" value="senior" /> Sophomore<br />
+          <input type="radio" name="year" value="senior" /> Junior<br />
+          <input type="radio" name="year" value="senior" /> Senior<br />
         </div>
         <div class="clearfloat"></div>
         <div class="label tall">Activities:</div>
         <div class="data">  <!-- Checkboxes -->
-          <input type="checkbox" name="Sports" value="Sports" /> Sports<br />
-          <input type="checkbox" name="Music" value="Music" /> Music<br />
-          <input type="checkbox" name="Theater" value="Theater" /> Theater<br />
-          <input type="checkbox" name="Other" value="Other" /> Other<br />
+          <input type="checkbox" name="activities" value="sports" /> Sports<br />
+          <input type="checkbox" name="activities" value="sports" /> Music<br />
+          <input type="checkbox" name="activities" value="sports" /> Theater<br />
+          <input type="checkbox" name="activities" value="sports" /> Other<br />
+          <!-- you are missing some checkboxes Fix This #8 -->
         </div>
         <div class="clearfloat"></div>
-        <div class="label">Quarter:</div>
-        <div class="data">  <!-- Drop-down List -->
-          <select name="Fall">
-           <option value="winter">Spring</option>
-           <option value="winter">Summer</option>
-           <option value="winter">Fall</option>
-           <option value="winter">Winter</option>			  
+        <div class="label ">Quarter:</div>
+        <div class="data"> <!-- Drop-down List -->
+          <select name="fall">
+		   <!-- you are missing some options Fix This #11-->
+           <option value="Spring">Spring</option>
+           <option value="Summer">Summer</option>
+           <option value="Fall">Fall</option>
+           <option value="Winter">Winter</option>			  
           </select>
         </div>
         <div class="clearfloat"></div>
         <div class="label tall">Comments:</div>
         <div class="data">  <!-- Textarea Box -->
-          <textarea name="comments" rows="4" cols="35">Enter your feedback here</textarea>
+          <textarea name="comments" rows="4" cols="35">Enter your feedback here.</textarea>
         </div>
         <div class="clearfloat"></div>
         <div class="button"> <!-- Submit Button -->
-          <input type="submit" value="Click Here To Submit" />
+          <input type="submit" value="Click Here to Submit" />
         </div>
       </fieldset>
     </form>
