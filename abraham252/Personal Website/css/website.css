@@ -12,8 +12,8 @@
    }
    
    .topcontent {
-     background-color: #922b21;
-     color: #FFFFFF;
+     background-color: #93226;
+     color: #93226;
      height: 150px;
 	 padding: 10px;
    }
@@ -21,13 +21,13 @@
    .bottomcontent {
      background-color: #93226;
      height: 50px;
-     color: #FFFFFF;
+     color: #93226;
 	 padding: 10px;
    }
    
    .maincontent {
      background-color: #922b21;
-     color: #FFFFFF;
+     color: #922b21;
 	 padding: 10px;
 	 float: none;
 	 height: auto;
