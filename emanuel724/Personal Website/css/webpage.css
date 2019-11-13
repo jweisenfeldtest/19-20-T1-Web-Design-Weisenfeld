@@ -5,17 +5,17 @@ body {
   height:500px;
   width:960px;
   border:1px solid black;
-  background-color: #008080;
+  background-color: #002145;
 }
 .head {
   height:150px;
   width:960px;
   border:1px solid black;
-  background-color: #00ffff;
+  background-color: #A5ACAF;
 }
 .foot {
   height:50px;
   width:960px;
   border:1px solid black;
-  background-color: #0000ff;
+  background-color: #66C010;
 }
