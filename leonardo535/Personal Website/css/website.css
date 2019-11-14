@@ -19,14 +19,14 @@
    }
    
    .bottomcontent {
-     background-color: #FFA500;
+     background-color: #008000;
      height: 50px;
      color: #FFFFFF;
 	 padding: 10px;
    }
    
    .maincontent {
-     background-color: #008080;
+     background-color: #0000FF;
      color: #FFFFFF;
 	 padding: 10px;
 	 float: none;
