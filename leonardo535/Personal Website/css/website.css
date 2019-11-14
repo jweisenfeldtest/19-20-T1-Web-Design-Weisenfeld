@@ -1,9 +1,6 @@
    /* #5f this is CSS comment */
    body {
-	   font-family: Tahoma, Arial, sans-serif;
-           font-style: oblique;
-           font-weight: bold;
-           text-decoration: underline; 
+	   font-family: "comic sans ms", sans-serif;
    }
    
    .pagecontent {
