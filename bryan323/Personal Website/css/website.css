@@ -4,6 +4,10 @@
            font-style: oblique;
            font-weight: bold;
            text-decoration: underline; 
+           background-image: url('KA3.jpg')
+           background-repeat: repeat-x;
+           
+       
    }
    
    .pagecontent {
@@ -64,3 +68,4 @@
 	img:hover {
 		filter: invert(100%);
 	}
+ </body>
