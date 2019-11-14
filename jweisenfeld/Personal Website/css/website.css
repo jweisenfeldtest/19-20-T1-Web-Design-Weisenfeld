@@ -1,6 +1,6 @@
    /* #5f this is CSS comment */
    body {
-	   font-family: calibri, sans-serif;
+	   font-family: "comic sans"; sans-serif;
    }
    
    .pagecontent {
@@ -12,21 +12,21 @@
    }
    
    .topcontent {
-     background-color: #BB00BB;
+     background-color: #00BB00;
      color: #FFFFFF;
      height: 150px;
 	 padding: 10px;
    }
    
    .bottomcontent {
-     background-color: #AA00AA;
+     background-color: #00AA00;
      height: 50px;
      color: #FFFFFF;
 	 padding: 10px;
    }
    
    .maincontent {
-     background-color: #660066;
+     background-color: #32565D;
      color: #FFFFFF;
 	 padding: 10px;
 	 float: none;
@@ -35,7 +35,7 @@
    
    nav {
 	   text-align: center;
-	   style: block;
+	   display: block;
    }
    
    .rotateimg180 {
