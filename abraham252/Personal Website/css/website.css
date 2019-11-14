@@ -12,21 +12,21 @@
    }
    
    .topcontent {
-     background-color: #b3b6b7;
+     background-color: #154360;
      color: #FFFFFF;
      height: 150px;
 	 padding: 10px;
    }
    
    .bottomcontent {
-     background-color: #93226;
+     background-color: #00AA00;
      height: 50px;
      color: #FFFFFF;
 	 padding: 10px;
    }
    
    .maincontent {
-     background-color: #922b21;
+     background-color: #006600;
      color: #FFFFFF;
 	 padding: 10px;
 	 float: none;

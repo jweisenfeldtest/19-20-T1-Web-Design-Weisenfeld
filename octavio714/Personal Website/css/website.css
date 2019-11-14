@@ -1,36 +1,33 @@
    /* #5f this is CSS comment */
    body {
-	   font-family: Tahoma, Arial, sans-serif;
-           font-style: oblique;
-           font-weight: bold;
-           text-decoration: underline; 
+	   font-family: calibri, sans-serif;
    }
    
    .pagecontent {
 	 height: auto;
 	 width: 960px;
 	 margin: 0 auto;
-     color: #FFFFFF;
+     color: #000000;
 	 align: center;
    }
    
    .topcontent {
-     background-color: #0000FF;
-     color: #FFFFFF;
-     height: 150px;
+     background-color: #000080;
+     color: #000080;
+     height: 120px;
 	 padding: 10px;
    }
    
    .bottomcontent {
-     background-color: #FFA500;
+     background-color: #000080;
      height: 50px;
-     color: #FFFFFF;
+     color: #0000FF;
 	 padding: 10px;
    }
    
    .maincontent {
-     background-color: #008080;
-     color: #FFFFFF;
+     background-color: #0000FF;
+     color: #0000FF;
 	 padding: 10px;
 	 float: none;
 	 height: auto;
@@ -38,7 +35,7 @@
    
    nav {
 	   text-align: center;
-	   display: block;
+	   style: block;
    }
    
    .rotateimg180 {
@@ -61,6 +58,3 @@
 		align: center;
 	}
 	
-	img:hover {
-		filter: invert(100%);
-	}
