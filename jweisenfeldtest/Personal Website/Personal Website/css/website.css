@@ -1,0 +1,63 @@
+   /* #5f this is CSS comment */
+   body {
+	   font-family: "comic sans ms", sans-serif;
+   }
+   
+   .pagecontent {
+	 height: auto;
+	 width: 960px;
+	 margin: 0 auto;
+     color: #FFFFFF;
+	 align: center;
+   }
+   
+   .topcontent {
+     background-color: #00BB00;
+     color: #FFFFFF;
+     height: 150px;
+	 padding: 10px;
+   }
+   
+   .bottomcontent {
+     background-color: #00AA00;
+     height: 50px;
+     color: #FFFFFF;
+	 padding: 10px;
+   }
+   
+   .maincontent {
+     background-color: #006600;
+     color: #FFFFFF;
+	 padding: 10px;
+	 float: none;
+	 height: auto;
+   }
+   
+   nav {
+	   text-align: center;
+	   display: block;
+   }
+   
+   .rotateimg180 {
+	-webkit-transform:rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+	}
+	
+	.flipx {
+		transform: scaleX(-1);
+	}
+	
+	.flipy {
+		transform: scaleY(-1);
+	}
+	
+	table {
+		align: center;
+	}
+	
+	img:hover {
+		filter: invert(100%);
+	}
