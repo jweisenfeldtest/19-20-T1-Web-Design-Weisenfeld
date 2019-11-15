@@ -1,5 +1,6 @@
+   /* #5f this is CSS comment */
    body {
-	   font-family: "comic sans ms", sans-serif;
+	   font-family: "arial"; sans-serif;
    }
    
    .pagecontent {
@@ -11,21 +12,21 @@
    }
    
    .topcontent {
-     background-color: #00BB00;
+     background-color: #365B63;
      color: #FFFFFF;
      height: 150px;
 	 padding: 10px;
    }
    
    .bottomcontent {
-     background-color: #00AA00;
+     background-color: #247080;
      height: 50px;
      color: #FFFFFF;
 	 padding: 10px;
    }
    
    .maincontent {
-     background-color: #006600;
+     background-color: #456789;
      color: #FFFFFF;
 	 padding: 10px;
 	 float: none;
@@ -37,13 +38,7 @@
 	   display: block;
    }
    
-   .rotateimg180 {
-	-webkit-transform:rotate(180deg);
-	-moz-transform: rotate(180deg);
-	-ms-transform: rotate(180deg);
-	-o-transform: rotate(180deg);
-	transform: rotate(180deg);
-	}
+  
 	
 	.flipx {
 		transform: scaleX(-1);
@@ -57,6 +52,3 @@
 		align: center;
 	}
 	
-	img:hover {
-		filter: invert(100%);
-	}

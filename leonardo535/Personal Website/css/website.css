@@ -1,3 +1,4 @@
+   /* #5f this is CSS comment */
    body {
 	   font-family: "comic sans ms", sans-serif;
    }
@@ -11,21 +12,21 @@
    }
    
    .topcontent {
-     background-color: #00BB00;
+     background-color: #0000FF;
      color: #FFFFFF;
      height: 150px;
 	 padding: 10px;
    }
    
    .bottomcontent {
-     background-color: #00AA00;
+     background-color: #008000;
      height: 50px;
      color: #FFFFFF;
 	 padding: 10px;
    }
    
    .maincontent {
-     background-color: #006600;
+     background-color: #0000FF;
      color: #FFFFFF;
 	 padding: 10px;
 	 float: none;
