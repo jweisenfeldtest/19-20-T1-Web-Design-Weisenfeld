@@ -7,27 +7,27 @@
 	 height: auto;
 	 width: 960px;
 	 margin: 0 auto;
-     color: #FFFFFF;
+     color: #000000;
 	 align: center;
    }
    
    .topcontent {
-     background-color: #0000FF;
-     color: #FFFFFF;
+     background-color: #000000;
+     color: #ffffff;
      height: 150px;
 	 padding: 10px;
    }
    
    .bottomcontent {
-     background-color: #FFA500;
+     background-color: #000000;
      height: 50px;
-     color: #FFFFFF;
+     color: #ffffff;
 	 padding: 10px;
    }
    
    .maincontent {
-     background-color: #000000;
-     color: #FFFFFF;
+     background-color: #FDB827;
+     color: #000000;
 	 padding: 10px;
 	 float: none;
 	 height: auto;
