@@ -12,16 +12,16 @@
    }
    
    .topcontent {
-     background-color: #00BB00;
-     color: #FFFFFF;
+     background-color: blue;
+     color: grey;
      height: 150px;
 	 padding: 10px;
    }
    
    .bottomcontent {
-     background-color: #00AA00;
+     background-color: blue;
      height: 50px;
-     color: #FFFFFF;
+     color: red;
 	 padding: 10px;
    }
    
