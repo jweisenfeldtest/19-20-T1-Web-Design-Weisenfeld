@@ -23,3 +23,12 @@
   background-color: #B58BAB;
   margin: 0px auto;
 }
+.table {
+ width: 200px
+ float: right;
+ border: 2px solid black;
+}
+ td {
+ border-width: 1px;
+ border-style: solid
+}
