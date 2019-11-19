@@ -4,6 +4,8 @@
            font-style: oblique;
            font-weight: bold;
            text-decoration: underline; 
+           
+       
    }
    
    .pagecontent {
@@ -29,7 +31,7 @@
    }
    
    .maincontent {
-     background-color: #008080;
+     background-color: #000000;
      color: #FFFFFF;
 	 padding: 10px;
 	 float: none;
@@ -64,3 +66,4 @@
 	img:hover {
 		filter: invert(100%);
 	}
+ </body>

@@ -1,33 +1,33 @@
    /* #5f this is CSS comment */
    body {
-	   font-family: calibri, sans-serif;
+	   font-family: "comic sans ms", sans-serif;
    }
    
    .pagecontent {
 	 height: auto;
 	 width: 960px;
 	 margin: 0 auto;
-     color: #000000;
+     color: #FFFFFF;
 	 align: center;
    }
    
    .topcontent {
-     background-color: #000080;
-     color: #000080;
-     height: 120px;
+     background-color: blue;
+     color: grey;
+     height: 150px;
 	 padding: 10px;
    }
    
    .bottomcontent {
-     background-color: #000080;
+     background-color: blue;
      height: 50px;
-     color: #0000FF;
+     color: red;
 	 padding: 10px;
    }
    
    .maincontent {
-     background-color: #0000FF;
-     color: #0000FF;
+     background-color: #006600;
+     color: #FFFFFF;
 	 padding: 10px;
 	 float: none;
 	 height: auto;
@@ -35,7 +35,7 @@
    
    nav {
 	   text-align: center;
-	   style: block;
+	   display: block;
    }
    
    .rotateimg180 {
@@ -58,3 +58,6 @@
 		align: center;
 	}
 	
+	img:hover {
+		filter: invert(100%);
+	}
