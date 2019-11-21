@@ -47,3 +47,16 @@
  top: 500px;
  right: 600px;
 }
+a:link {
+    color: blue;
+  }
+  a:visited {
+    color: green
+  }
+  a:hover {
+    text-decoration: none; /* This makes the underline disappear when the link is moused over. */
+    color: red;
+  }
+  a:active {   
+    color: orange;
+  }
