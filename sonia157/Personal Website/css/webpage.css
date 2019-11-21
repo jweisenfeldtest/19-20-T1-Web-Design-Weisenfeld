@@ -25,10 +25,38 @@
 }
 .table {
  width: 200px
- float: right;
  border: 2px solid black;
 }
  td {
- border-width: 1px;
+ border-width: 2px;
  border-style: solid
 }
+.tablebox {
+ width: 550px;
+ height: 150px;
+ text-align: center;
+ position:fixed;
+ top: 200px;
+ right: 680px;
+}
+.tablebox2 {
+ width: 550px;
+ height: 400px;
+ text-align: center;
+ position:fixed;
+ top: 500px;
+ right: 600px;
+}
+a:link {
+    color: blue;
+  }
+  a:visited {
+    color: green
+  }
+  a:hover {
+    text-decoration: none; /* This makes the underline disappear when the link is moused over. */
+    color: red;
+  }
+  a:active {   
+    color: orange;
+  }
