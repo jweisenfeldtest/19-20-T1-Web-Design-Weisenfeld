@@ -23,3 +23,27 @@
   background-color: #B58BAB;
   margin: 0px auto;
 }
+.table {
+ width: 200px
+ border: 2px solid black;
+}
+ td {
+ border-width: 2px;
+ border-style: solid
+}
+.tablebox {
+ width: 550px;
+ height: 150px;
+ text-align: center;
+ position:fixed;
+ top: 200px;
+ right: 680px;
+}
+.tablebox2 {
+ width: 550px;
+ height: 400px;
+ text-align: center;
+ position:fixed;
+ top: 500px;
+ right: 600px;
+}
