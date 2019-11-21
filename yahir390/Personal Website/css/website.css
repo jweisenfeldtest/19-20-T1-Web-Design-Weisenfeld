@@ -7,7 +7,7 @@
 	 height: auto;
 	 width: 960px;
 	 margin: 0 auto;
-     color: #FFFFFF;
+     color: #;
 	 align: center;
    }
    
@@ -19,14 +19,14 @@
    }
    
    .bottomcontent {
-     background-color: #0000A0;
+     background-color: #3EA055;
      height: 50px;
      color: #FFFFFF;
 	 padding: 10px;
    }
    
    .maincontent {
-     background-color: #5C5858;
+     background-color: #9F000F;
      color: #FFFFFF;
 	 padding: 10px;
 	 float: none;
